@@ -6,6 +6,7 @@
     "Javascript"
   ],
   "license": "MIT",
+  "private": false,
   "author": "Gurinder Chauhan <gurinderchauhan@gmail.com>",
   "homepage": "https://github.com/gurindersingh/js-utils",
   "repository": {
