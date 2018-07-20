@@ -6,15 +6,15 @@
     "Javascript"
   ],
   "license": "MIT",
-  "author": "Eugene Nikitin",
-  "homepage": "http://github.com/gurindersingh/js-utils",
+  "author": "Gurinder Chauhan <gurinderchauhan@gmail.com>",
+  "homepage": "https://github.com/gurindersingh/js-utils",
   "repository": {
     "type": "git",
-    "url": "http://github.com/gurindersingh/js-utils"
+    "url": "https://github.com/gurindersingh/js-utils"
   },
   "bugs": {
-    "mail": "eu.nikitin@gmail.com",
-    "url": "http://github.com/gurindersingh/js-utils/issues"
+    "mail": "gurinderchauhan@gmail.com",
+    "url": "https://github.com/gurindersingh/js-utils/issues"
   },
   "main": "src/index.js"
 }
