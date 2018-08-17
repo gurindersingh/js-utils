@@ -1,12 +1,8 @@
 {
   "name": "@gurinder/js-utils",
   "version": "1.0.0",
-  "description": "Javascript Utilities",
-  "keywords": [
-    "Javascript"
-  ],
-  "license": "MIT",
   "private": false,
+  "license": "MIT",
   "author": "Gurinder Chauhan <gurinderchauhan@gmail.com>",
   "homepage": "https://github.com/gurindersingh/js-utils",
   "repository": {
@@ -17,5 +13,53 @@
     "mail": "gurinderchauhan@gmail.com",
     "url": "https://github.com/gurindersingh/js-utils/issues"
   },
-  "main": "src/index.js"
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "pack": "vue-cli-service build --target lib --name Utils ./src/index.js"
+  },
+  "main": "dist/Utils.common.js",
+  "files": [
+    "dist/*.js",
+    "dist/*.js.map",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js",
+    "*.md"
+  ],
+  "dependencies": {
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-rc.5",
+    "@vue/cli-plugin-eslint": "^3.0.0-rc.5",
+    "@vue/cli-service": "^3.0.0-rc.5",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
